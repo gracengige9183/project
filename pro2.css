@@ -1,0 +1,89 @@
+body{
+    background: url('bb.jpeg')no-repeat;
+    background-size: cover;
+}
+ul{
+    margin: 0px;
+    padding:0px;
+    list-style: none;
+
+     
+}
+
+Ul li{
+    float: left;
+    width:190px;
+    background-color:green;
+    opacity: .7;
+    line-height: 40px;
+    text-align:center;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    display: inline-block;
+}
+ul li a:hover {
+background-color: green;
+}
+ul li  ul li{
+    display: none;
+}
+#career ul li :hover ul li{
+display: block;
+}
+.joy{
+    color: black;
+    align-items: center;
+    margin-right: 50px;
+    display: flex;
+    justify-content: center;
+}
+#career{
+    text-decoration: none;
+    color: white;
+    display: block;
+    background-color: green;
+    background-color: magenta;
+    
+    width: 220px;
+    height: 40px;
+    float: left;
+    line-height: 40px;
+    text-align: center;
+    font-size: 20px;
+}
+body {
+	margin: 0;
+	padding: 0;
+}
+
+#container {
+	width: 1000px;
+	margin: 0 auto;
+  
+}
+.doo{
+    margin: 2px;
+    text-align: center;
+   
+}
+.contain{
+    color: black;
+    display: flex;
+    justify-content: space-between; 
+    
+    text-align: center;
+}
+.footer{
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+    background-color: black;
+    color: white;
+}
+.footer-two{
+    background-color: black;
+}
+    
